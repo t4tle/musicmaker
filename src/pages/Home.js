@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       <Tabs defaultActiveKey="1" centered>
-              <TabPane tab="FEATURED" key="1">
-                <h1 className="featuredTitle">Today Is The Day</h1>
+              <TabPane tab="Featured" key="1">
+                <h1 className="featuredTitle">Featured Audio</h1>
                 <div className="albums">
                   {library.map((e) => (
                     <Link to="/album" state={e} className="albumSelection">
@@ -25,8 +25,8 @@ const Home = () => {
                   ))}
                 </div>
               </TabPane>
-              <TabPane tab="GENRES & MOODS" key="2">
-                <h1 className="featuredTitle">Pop Music</h1>
+              <TabPane tab="News" key="2">
+                <h1 className="featuredTitle">Hot Off The Press</h1>
                 <div className="albums">
                   {library.slice(7, 13).map((e) => (
                     <Link to="/album" state={e} className="albumSelection">
@@ -80,7 +80,7 @@ const Home = () => {
                 </div>
               </TabPane>
               <TabPane tab="NEW RELEASES" key="3">
-                <h1 className="featuredTitle">Hot Off The Press</h1>
+                <h1 className="featuredTitle">What's new Scooby doo</h1>
                 <div className="albums">
                   {library.map((e) => (
                     <Link to="/album" state={e} className="albumSelection">
@@ -94,6 +94,7 @@ const Home = () => {
                   ))}
                 </div>
               </TabPane>
+      
             </Tabs>
     </>
   );
