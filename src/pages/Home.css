@@ -19,7 +19,13 @@
   gap: 20px;
   row-gap: 50px;
   -webkit-box-pack: start;
+  
 }
+
+h1,p{
+    color: white;
+    font-size: 25px;
+  }
 
 .albumSelection {
   color:rgb(205, 203, 203);

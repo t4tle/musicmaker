@@ -91,4 +91,4 @@ export const library = [
         "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg",
     },
     
-  ];
+  ]; //library of albums

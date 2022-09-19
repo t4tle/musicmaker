@@ -5,6 +5,7 @@ import "./Album.css";
 import Opensea from "../images/opensea.png";
 import { ClockCircleOutlined } from "@ant-design/icons";
 
+// sample/song details
 const bears = [
   {
     src: "https://ipfs.moralis.io:2053/ipfs/Qmf8xEYZdMtQXYv56VxxmzbtUtEVjmaFaXGCgcBqGXDAA6/music/JTwinkle.mp3",
@@ -54,10 +55,10 @@ const bears = [
     song: "Boomerang",
     duration: "2:16",
   },
-];
+]; 
 
 const Album = ({ setNftAlbum }) => {
-  const { state: albumDetails } = useLocation();
+  const { state: albumDetails } = useLocation();//state is the album details
   const { album } = useAlbum(albumDetails.contract);
 
   return (
@@ -81,8 +82,8 @@ const Album = ({ setNftAlbum }) => {
             </div>
           </div>
         </div>
-        <div className="topBan">
-          <div className="playButton" onClick={() => setNftAlbum(album)}>
+         <div className="topBan">
+          <div className="playButton" onClick={() => setNftAlbum(album)}> 
             PLAY
           </div>
           <div

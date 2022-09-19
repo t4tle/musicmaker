@@ -14,7 +14,7 @@ const { Content, Sider, Footer } = Layout;
 
 const App = () => {
 
-  const [nftAlbum, setNftAlbum] = useState();
+  const [nftAlbum, setNftAlbum] = useState(); // this is the state that will hold the album data
   return (
     <>
       <Layout>
@@ -26,9 +26,18 @@ const App = () => {
               <SearchOutlined style={{ fontSize: "30px" }} />
             </div>
             <Link to="/">
-            <p style={{ color: "#1DB954" }}> Home </p>
+            <p style={{ color: "#5ba5b9" }}> Home </p>
             </Link>
-            <p> Your Music </p>
+            <Link to="/">
+            <p style={{ color: "#5ba5b9" }}> SFX </p>
+            </Link>
+            <Link to="/">
+            <p style={{ color: "#5ba5b9" }}> Igloo Picks </p>
+            </Link>
+            <Link to="/">
+            <p style={{ color: "#5ba5b9" }}> Your Audio </p>
+            </Link>
+            
             <div className="recentPlayed">
               <p className="recentTitle">RECENTLY PLAYED</p>
               <div className="install">
@@ -50,6 +59,7 @@ const App = () => {
             url={nftAlbum}
           />
           }
+          <p>© 2022 Hitmaker </p>
         </Footer>
       </Layout>
     </>
