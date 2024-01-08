@@ -7,7 +7,7 @@ import './App.css';
 import { Link } from "react-router-dom";
 import Player from "./components/AudioPlayer";
 import { Layout } from "antd";
-import Spotify from "./images/Spotify.png";
+import Hitmakr from "./images/Hitmakr.png";
 import { SearchOutlined, DownCircleOutlined } from "@ant-design/icons";
 
 const { Content, Sider, Footer } = Layout;
@@ -20,7 +20,7 @@ const App = () => {
       <Layout>
         <Layout>
           <Sider width={300} className="sideBar">
-            <img src={Spotify} alt="Logo" className="logo"></img>
+            <img src={Hitmakr} alt="Logo" className="logo"></img>
             <div className="searchBar">
               <span> Search </span>
               <SearchOutlined style={{ fontSize: "30px" }} />
@@ -28,11 +28,11 @@ const App = () => {
             <Link to="/">
             <p style={{ color: "#5ba5b9" }}> Home </p>
             </Link>
-            <Link to="/">
+            <Link to="/album.js">
             <p style={{ color: "#5ba5b9" }}> SFX </p>
             </Link>
             <Link to="/">
-            <p style={{ color: "#5ba5b9" }}> Igloo Picks </p>
+            <p style={{ color: "#5ba5b9" }}> Hitmakr Picks </p>
             </Link>
             <Link to="/">
             <p style={{ color: "#5ba5b9" }}> Your Audio </p>
@@ -47,24 +47,22 @@ const App = () => {
             </div>
           </Sider>
           <Content className="contentWindow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/album" element={<Album setNftAlbum={setNftAlbum}/>} />
-          </Routes>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/album" element={<Album setNftAlbum={setNftAlbum}/>} />
+            </Routes>
           </Content>
         </Layout>
         <Footer className="footer">
-          {nftAlbum &&
-          <Player
-            url={nftAlbum}
-          />
-          }
-          <p>© 2022 Hitmaker </p>
+          {nftAlbum &&<Player url={nftAlbum} />}
+
+          <p>© 2023 Hitmakr </p>
         </Footer>
       </Layout>
     </>
   );
 }
-
+//
+// 
 
 export default App;

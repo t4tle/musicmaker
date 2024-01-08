@@ -2,7 +2,7 @@ export const library = [
     {
       title: "Hyperspace",
       image:
-        "https://www.digitalartsonline.co.uk/cmsdata/slideshow/3776245/beck_-_hyperspace.jpg"
+        "https://monkeybuzz.com.br/wp-content/uploads/2019/12/beck-hyperspace-album-artwork.jpg"
     },
     {
       title: "Non Fungible",
@@ -11,9 +11,9 @@ export const library = [
       contract: "0x1C45d483515A92fCDD0aa5eaF03dbdf1B7d6898a",
     },
     {
-      title: "The Unknown",
+      title: "Treezus 2",
       image:
-        "https://350927.smushcdn.com/1388247/wp-content/uploads/2020/11/Unknown-Album-Cover-PP1.jpg?lossy=0&strip=1&webp=1",
+        "https://d1fdloi71mui9q.cloudfront.net/QCgjMRouQHeLFuDfhG22_IMG_1278.JPG",
     },
     {
       title: "Get Rich Or Die Tryin'",
@@ -28,6 +28,12 @@ export const library = [
       title: "Evolve",
       image:
         "https://external-preview.redd.it/v_5XzwOWnjqrz5gBDfENNoMV9Kl8OAAy3015hcTsVYs.jpg?auto=webp&s=5485881fc8e107c14bca6d16c61fa085a78b70b6",
+  
+    },
+    {
+      title: "Back From The Dead",
+      image:
+        "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/16/62/a5166262-81f6-724e-8393-cdca234c81a1/artwork.jpg/316x316bb.webp",
     },
     {
       title: "Ball Breaker",
@@ -37,7 +43,7 @@ export const library = [
     {
       title: "Flavors",
       image:
-        "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/125831034/original/c2e1426823f87d01f7b43085c6b20e61b0736794/create-you-a-special-artistic-album-cover.png",
+        "https://i.scdn.co/image/ab67616d0000b27394f9ac6c17803f2c979624fb",
     },
     {
       title: "Shakira",
