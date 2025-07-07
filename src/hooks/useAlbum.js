@@ -106,6 +106,46 @@ const localSongs = [
       album: "Get Rich Or Die Tryin'",
       animation_url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     })
+  },
+  {
+    name: "Hyperlife",
+    url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+    metadata: JSON.stringify({
+      image: "https://monkeybuzz.com.br/wp-content/uploads/2019/12/beck-hyperspace-album-artwork.jpg",
+      name: "Hyperlife",
+      album: "Hyperspace",
+      animation_url: "/music/Hyperlife.mp3",
+    })
+  },
+  {
+    name: "DA ONES",
+    url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+    metadata: JSON.stringify({
+      image: "https://d1fdloi71mui9q.cloudfront.net/QCgjMRouQHeLFuDfhG22_IMG_1278.JPG",
+      name: "DA ONES",
+      album: "Treezus 2",
+      animation_url: "/music/DA ONES.mp3",
+    })
+  },
+  {
+    name: "Strange Clouds",
+    url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+    metadata: JSON.stringify({
+      image: "https://upload.wikimedia.org/wikipedia/en/6/69/B.o.B_-_Strange_Clouds_-_LP_Cover.jpg",
+      name: "Strange Clouds",
+      album: "Strange Clouds",
+      animation_url: "/music/strange clouds.mp3",
+    })
+  },
+  {
+    name: "Starboy",
+    url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+    metadata: JSON.stringify({
+      image: "https://i.pinimg.com/originals/49/a0/7a/49a07a20041787942f62dbe900573ecb.jpg",
+      name: "Starboy",
+      album: "Starboy",
+      animation_url: "/music/Starboy.mp3",
+    })
   }
   // Add more songs as needed
 ];
