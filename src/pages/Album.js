@@ -13,6 +13,12 @@ const Album = ({ setNftAlbum }) => {
   // Use local album data from the custom hook
   const { album } = useAlbum();
 
+  // Filter songs for this album
+  const albumSongs = album.filter((nft) => {
+    const meta = JSON.parse(nft.metadata);
+    return meta.album === albumDetails?.title;
+  });
+
   return (
     <>
       <div className="albumContent">
@@ -35,7 +41,7 @@ const Album = ({ setNftAlbum }) => {
           </div>
         </div>
         <div className="topBan">
-          <div className="playButton" onClick={() => setNftAlbum(album)}>
+          <div className="playButton" onClick={() => setNftAlbum(albumSongs)}>
             PLAY
           </div>
           {/* Remove OpenSea button if not needed, or keep as a placeholder */}
@@ -56,22 +62,21 @@ const Album = ({ setNftAlbum }) => {
             <ClockCircleOutlined />
           </div>
         </div>
-        {album &&
-          album.map((nft, i) => {
-            const meta = JSON.parse(nft.metadata);
-            return (
-              <div className="tableContent" key={i}>
-                <div className="numberHeader">{i + 1}</div>
-                <div
-                  className="titleHeader"
-                  style={{ color: "rgb(205, 203, 203)" }}
-                >
-                  {meta.name}
-                </div>
-                <div className="numberHeader">{meta.duration || "--:--"}</div>
+        {albumSongs.map((nft, i) => {
+          const meta = JSON.parse(nft.metadata);
+          return (
+            <div className="tableContent" key={i}>
+              <div className="numberHeader">{i + 1}</div>
+              <div
+                className="titleHeader"
+                style={{ color: "rgb(205, 203, 203)" }}
+              >
+                {meta.name}
               </div>
-            );
-          })}
+              <div className="numberHeader">{meta.duration || "--:--"}</div>
+            </div>
+          );
+        })}
       </div>
     </>
   );
