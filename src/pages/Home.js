@@ -29,7 +29,7 @@ const Home = () => {
                 <h1 className="featuredTitle">Hot Off The Press</h1>
                 <div className="albums">
                   <article>
-                    <h1> Article 1</h1>
+                    <h1> Dream</h1>
                     <p>Imagine a world where music production is not just a skill but an immersive experience. This vision has become a reality with the launch of Hitmakr, a revolutionary tool designed to empower artists and elevate their musical journeys.</p>
                   </article>
                 </div>

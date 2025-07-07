@@ -1,13 +1,23 @@
+import { audios } from "../helpers/audios";
+
 export const library = [
     {
       title: "Hyperspace",
       image:
-        "https://monkeybuzz.com.br/wp-content/uploads/2019/12/beck-hyperspace-album-artwork.jpg"
+        "https://monkeybuzz.com.br/wp-content/uploads/2019/12/beck-hyperspace-album-artwork.jpg",
+      artist: "Beck",
+      year: 2019,
+      genre: "Alternative",
+      description: "Hyperspace is the fourteenth studio album by American musician Beck.",
+      tracks: [
+        { name: "Hyperlife", duration: "1:42", url: "./music/my war.mp3" },
+        { name: "Uneventful Days", duration: "3:17", url: "./music/my war.mp3" }
+      ]
     },
     {
       title: "Non Fungible",
       image:
-        "https://ipfs.moralis.io:2053/ipfs/QmTbF7gLPmtrZuNr7kZJ8iufxBVEPqrAdJsxujSmu9qbuh/art/NonFungible.png",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbarbaraiweins.com%2Fwp-content%2Fuploads%2F2022%2F03%2FCrypto-Tokens.jpg&f=1&nofb=1&ipt=9462c3c9d7190982985a05af08ee2276afd06bfb2bb0e4b20d0598b76140f4f1",
       contract: "0x1C45d483515A92fCDD0aa5eaF03dbdf1B7d6898a",
     },
     {
@@ -63,7 +73,7 @@ export const library = [
     {
       title: "Shadow",
       image:
-        "https://ipfs.moralis.io:2053/ipfs/QmX5NMV8hh1g5EcebX1e2Y55uQnVnKPk8YzW37wpnRWfXp/media/6",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2020%2F07%2F06%2F19%2F08%2Fperson-5378092_1280.png&f=1&nofb=1&ipt=58a1f1683b3ff0ff90811eb35d6da7b99e577040e099ab0509a728542a736354",
       contract: "0x8A68d4e28515815CD6026416f4B2a4B647796F3E",
     },
     {
@@ -98,3 +108,7 @@ export const library = [
     },
     
   ]; //library of albums
+
+// Example usage in albumList.js or useAlbum.js
+// console.log(audios[0].name); "Song One"
+// console.log(audios[0].url);  "https://www.example.com/song1.mp3"

@@ -4,16 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
-import { MoralisProvider } from "react-moralis";
+// Importing the useAudio hook
+import { useAudio } from './hooks/useAudio'; // Uncomment if you need to use
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId="xxxx" serverUrl="xxxx">
+    
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </MoralisProvider>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
