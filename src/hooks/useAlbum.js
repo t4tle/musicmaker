@@ -41,7 +41,7 @@ const localSongs = [
     name: "What Up Gangsta",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg",
       name: "What Up Gangsta",
       album: "Get Rich Or Die Tryin'",
       animation_url: "/music/What Up Gangsta.mp3",
@@ -51,37 +51,37 @@ const localSongs = [
     name: "Patiently Waiting",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg",
       name: "Patiently Waiting",
       album: "Get Rich Or Die Tryin'",
-      animation_url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+      animation_url: "music/Patiently Waiting.mp3",
     })
   },
   {
     name: "Many Men (Wish Death)",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg",
       name: "Many Men (Wish Death)",
       album: "Get Rich Or Die Tryin'",
-      animation_url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+      animation_url: "/music/Many men.mp3",
     })
   },
   {
     name: 	"In da Club",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://www.example.com/song2.https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg",
       name:	"In da Club",
       album: "Get Rich Or Die Tryin'",
-      animation_url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
+      animation_url: "/music/In da Club.mp3",
     })
   },
   {
     name: "High All the Time",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://www.https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg.com/song2.jpg",
       name: "High All the Time",
       album: "Get Rich Or Die Tryin'",
       animation_url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
@@ -91,7 +91,7 @@ const localSongs = [
     name: "Heat",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://www.https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg.com/song2.jpg",
       name: "Heat",
       album: "Get Rich Or Die Tryin'",
       animation_url: "/music/Heat.mp3",
@@ -101,7 +101,7 @@ const localSongs = [
     name: "If I Can't",
     url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
     metadata: JSON.stringify({
-      image: "https://www.example.com/song2.jpg",
+      image: "https://www.https://m.media-amazon.com/images/I/61AYpcmBtpL._SY450_.jpg.com/song2.jpg",
       name: "If I Can't",
       album: "Get Rich Or Die Tryin'",
       animation_url: "https://drive.google.com/drive/u/0/folders/1qybHvweboeoxJFqTbt8pilXB6adI1RWN",
