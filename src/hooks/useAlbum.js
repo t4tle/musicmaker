@@ -146,6 +146,147 @@ const localSongs = [
       album: "Starboy",
       animation_url: "/music/Starboy.mp3",
     })
+  },
+  {
+    name: "Next To Me",
+    url: "",
+    metadata: JSON.stringify({
+      image: "https://external-preview.redd.it/v_5XzwOWnjqrz5gBDfENNoMV9Kl8OAAy3015hcTsVYs.jpg?auto=webp&s=5485881fc8e107c14bca6d16c61fa085a78b70b6",
+      name: "Next To Me",
+      album: "Evolve",
+      animation_url: "/music/Next To Me.mp3",
+    })
+  },
+  {
+    name: "Hard as a Rock",
+    url: "",
+    metadata: JSON.stringify({
+      image: "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AN5W2E/b0cb0df8c30d479da36443c10bc85b96.jpg/f/ac-dc-ballbreaker-framed-album-cover-30x30cm.jpg",
+      name: "Hard as a Rock",
+      album: "Ball Breaker",
+      animation_url: "/music/Hard as a Rock.mp3",
+    })
+  },
+  {
+    name: "Rampage",
+    url: "",
+    metadata: JSON.stringify({
+      image: "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/16/62/a5166262-81f6-724e-8393-cdca234c81a1/artwork.jpg/316x316bb.webp",
+      name: "Rampage",
+      album: "Back From The Dead",
+      animation_url: "/music/Rampage.mp3",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Flavors",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Shakira",
+      animation_url: "",
+    })
+  },
+
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Adele 21",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Strange Clouds",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Shadow",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Arctic Monkeys",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "My Everything",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Have A Nice Day",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Happier",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "Stoney",
+      animation_url: "",
+    })
+  },
+  {
+    name: "",
+    url: "",
+    metadata: JSON.stringify({
+      image: "",
+      name: "",
+      album: "The Eminem Show",
+      animation_url: "",
+    })
   }
   // Add more songs as needed
 ];
