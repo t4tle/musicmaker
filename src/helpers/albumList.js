@@ -105,7 +105,12 @@ export const library = [
       title: "The Eminem Show",
       image:
         "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg",
-    },
+    }, 
+    {
+      title: "Graduation",
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/1/1f/Kanye_West_-_Graduation.png",
+    }
     
   ]; //library of albums
 

@@ -181,58 +181,48 @@ const localSongs = [
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://i.scdn.co/image/ab67616d0000b27394f9ac6c17803f2c979624fb",
       name: "",
       album: "Flavors",
       animation_url: "",
     })
   },
   {
-    name: "",
+    name: "Hips Don't Lie",
     url: "",
     metadata: JSON.stringify({
-      image: "",
-      name: "",
+      image: "https://upload.wikimedia.org/wikipedia/en/3/35/Shakira_-_Shakira_%282014%29.png",
+      name: "Hips Don't Lie",
       album: "Shakira",
-      animation_url: "",
+      animation_url: "/music/Hips Don't Lie.mp3",
     })
   },
 
   {
-    name: "",
+    name: "Rolling In The Deep",
     url: "",
     metadata: JSON.stringify({
-      image: "",
-      name: "",
+      image: "https://upload.wikimedia.org/wikipedia/fi/5/51/Adele21albumikansi.jpg",
+      name: "Rolling In The Deep",
       album: "Adele 21",
-      animation_url: "",
+      animation_url: "/music/Rolling In The Deep.mp3",
     })
   },
   {
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
-      name: "",
-      album: "Strange Clouds",
-      animation_url: "",
-    })
-  },
-  {
-    name: "",
-    url: "",
-    metadata: JSON.stringify({
-      image: "",
+      image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2020%2F07%2F06%2F19%2F08%2Fperson-5378092_1280.png&f=1&nofb=1&ipt=58a1f1683b3ff0ff90811eb35d6da7b99e577040e099ab0509a728542a736354",
       name: "",
       album: "Shadow",
-      animation_url: "",
+      animation_url: "/music/Bath Rhymes.mp3",
     })
   },
   {
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://i.pinimg.com/originals/c1/83/44/c1834474ec73e7faa475d68fdd791a48.jpg",
       name: "",
       album: "Arctic Monkeys",
       animation_url: "",
@@ -242,7 +232,7 @@ const localSongs = [
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/en/d/d5/Ariana_Grande_My_Everything_2014_album_artwork.png",
       name: "",
       album: "My Everything",
       animation_url: "",
@@ -252,7 +242,7 @@ const localSongs = [
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/de/thumb/e/e5/Bon_Jovi_Have_a_Nice_Day.svg/1200px-Bon_Jovi_Have_a_Nice_Day.svg.png",
       name: "",
       album: "Have A Nice Day",
       animation_url: "",
@@ -262,7 +252,7 @@ const localSongs = [
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/en/e/e5/Marshmello_and_Bastille_Happier.png",
       name: "",
       album: "Happier",
       animation_url: "",
@@ -272,7 +262,7 @@ const localSongs = [
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/fi/d/d9/Post_Malone_Stoney.jpg",
       name: "",
       album: "Stoney",
       animation_url: "",
@@ -282,7 +272,7 @@ const localSongs = [
     name: "",
     url: "",
     metadata: JSON.stringify({
-      image: "",
+      image: "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg",
       name: "",
       album: "The Eminem Show",
       animation_url: "",

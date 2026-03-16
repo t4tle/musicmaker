@@ -8,7 +8,11 @@
   margin-top: 20px;
   margin-bottom: 30px;
 }
-
+.featuredTitle article {
+  margin: 5% ;
+  max-width: 1000px;
+  width: 100%;
+}
 .albums {
   display: flex;
   flex-wrap: wrap;
